@@ -1,0 +1,95 @@
+// submit order
+
+curl --location 'http://10.63.161.172:3000/api/insert-order' \
+--header 'Content-Type: application/json' \
+--data '{
+    "items": [
+        {
+            "products": [
+                {
+                    "productId": "test",
+                    "productName": "test",
+                    "quanlity": 1,
+                    "price": 1000000
+                },
+                {
+                    "productId": "test",
+                    "productName": "test",
+                    "quanlity": 1,
+                    "price": 1000000
+                }
+            ]
+        }
+    ]
+}'
+
+response:
+{
+    "newĐata": {
+        "acknowledged": true,
+        "insertedCount": 1,
+        "insertedIds": {
+            "0": "6656956cce5f1be5ccec00a8"
+        }
+    },
+    "items": [
+        {
+            "products": [
+                {
+                    "productId": "test",
+                    "productName": "test",
+                    "quanlity": 1,
+                    "price": 1000000
+                },
+                {
+                    "productId": "test",
+                    "productName": "test",
+                    "quanlity": 1,
+                    "price": 1000000
+                }
+            ],
+            "orderId": "rzy8kbt65",
+            "_id": "6656956cce5f1be5ccec00a8"
+        }
+    ]
+}
+
+
+// get order detail
+curl --location 'http://10.63.161.172:3000/api/get-order' \
+--header 'Content-Type: application/json' \
+--data '{
+    "page": 0,
+    "size": 2,
+    "data":{
+        "orderId": "rzy8kbt65"
+    }
+}'
+
+output
+{
+    "code": 200,
+    "data": {
+        "items": [
+            {
+                "products": [
+                    {
+                        "productId": "test",
+                        "productName": "test",
+                        "quanlity": 1,
+                        "price": 1000000
+                    },
+                    {
+                        "productId": "test",
+                        "productName": "test",
+                        "quanlity": 1,
+                        "price": 1000000
+                    }
+                ],
+                "orderId": "rzy8kbt65"
+            }
+        ],
+        "total": 1
+    }
+}
+
