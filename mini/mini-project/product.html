@@ -7,7 +7,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="/mini_project/style.css" />
+    <!-- <link rel="stylesheet" href="/mini_project/style.css" /> -->
+    <link rel="stylesheet" href="/mini-project/product.css" />
 
     <title>Mini-project</title>
   </head>
@@ -16,72 +17,58 @@
       <div class="container">
         <div class="header">
               <h1 class="our-product">Our products</h1>
-            
-              <!-- <a class="button-shopping-cart"><i class="fa fa-shopping-cart"></i></a> -->
+
               <div class="button-shopping-cart" id="cart" onclick="showCartPopup()">
                 <i class="fa fa-shopping-cart"></i>
-                <p id = "quantity"></p>
+                <span id="quantity">0</span>
               </div>
 
-              <!-- <div id="cart-detail-container" onclick="handleClickCartDetailContainer(event)">
-                <div id="cart-detail">
-                    <div>
-                        <table style="text-align: left; width: 100%; margin-bottom: 10px; max-height: 135px; overflow-y: scroll;">
-                            <thead>
-                                <tr>
-                                    <th scope="col">
-                                        Product Name
-                                    </th>
+              <div id="cart-popup" style="display:none;">
+                <div class="popup-content">
+                    <table id="cart-table">
+                        <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Price</th>
+                              <th>Quantity</th>
+                              <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <p>Total Price: <span id="total-price"></span></p>
+                    
+                    <button id="submit-button" onclick="submitOrder()">Submit</button>
+                    <button onclick="closeCartPopup()">Close</button>
 
-                                    <th scope="col">
-                                        Quantity
-                                    </th>
-                                    <th scope="col">
-                                        Price
-                                    </th>
-                                    <th scope="col">
-                                        Remove
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody id="table-body">
-                            </tbody>
-                        </table>
-                    </div>
-                    <div id="section-total" class="flex" style="justify-content: space-between;">
-                        <p id="total-price"></p>
-                        <button class="btn" onclick="submitCart()">submit</button>
-                    </div>
+                    <!-- <div id="success-noti" style="display: none; color: rgb(96, 7, 240);">
+                      Create order successfully. Check order detail <a href="#" id="order-detail-link">here</a>.
+                    </div> -->
                 </div>
-
-                <div id="cart-empty">
-                    <p>Your cart is empty</p>
-                </div>
-            </div> -->
-              
-            
+              </div>
         </div>
 
         <div class="product">
             <div class="product-type">
               <b>Product type</b>
               <div class="buttons">
-                <button type="button">services</button>
-                <button type="button">Facilities</button>
-              </div>
+                <button value="service" class="product-type__btn button_service active" type="button" >services</button>
+                <button value="facility" class="product-type__btn button_facility" type="button">facilities</button>
+            </div>
             </div>
 
             <div class="product-list">
               <b>List services</b>
             </div>
-    
+
             <div class="product-search">
               <p>Search</p>
-              <input class="input-text" type="text" placeholder="Enter product name" />
+              <input class="input-text" type="text" placeholder="Enter product name" oninput="handleSearch(this.value)" />
             </div>
 
           <div id="list-image" class="list"></div>
 
+          <!-- Start: popup detail image -->
           <div id="popup" class="popup">
             <div class="popup-content-wrapper">
               <span class="close-button" onclick="closePopup()">&times;</span>
@@ -98,21 +85,36 @@
               </div>
             </div>
           </div>
+          <!--End: popup detail image -->
           
           <div class="pagination">
             <nav class="pagination-container">
               <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
                 &lt;
               </button>
+
               <div id="pagination-numbers"></div>
+
               <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
                 &gt;
               </button>
             </nav>
           </div>
-        <!-- </div> -->
+
+
+        <div onclick="clickOnDetail(event)" id="detail-container">
+            <div id="detail-item">
+            </div>
+        </div>
+
+        <div onclick="clickOnSuccess(event)" id="success-container">
+            <div id="success-item">
+            </div>
+        </div>
+  
     </main>
 
-      <script src="./main.js"></script>
+      <!-- <script src="./main.js"></script> -->
+      <script src="./product.js"></script>
   </body>
 </html>
