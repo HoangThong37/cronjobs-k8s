@@ -11,10 +11,10 @@ public class UserDTO extends AbstractDTO {
     private String fullName;
     private String password;
     private Integer status;
-    private List<RoleDTO> roles = new ArrayList<>();
+    private List<RoleDTO> roles = new ArrayList<RoleDTO>();
     private String roleName;
     private String roleCode;
-    private Map<String,String> roleDTOs = new HashMap<>();
+    private Map<String,String> roleDTOs = new HashMap<String, String>();
 
     public String getUserName() {
         return userName;

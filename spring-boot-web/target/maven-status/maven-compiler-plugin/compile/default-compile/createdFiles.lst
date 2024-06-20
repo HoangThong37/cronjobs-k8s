@@ -27,6 +27,7 @@ com\laptrinhjavaweb\entity\RoleEntity.class
 com\laptrinhjavaweb\converter\BuildingConverter.class
 com\laptrinhjavaweb\repository\custom\UserRepositoryCustom.class
 com\laptrinhjavaweb\utils\ReadFileUtils.class
+com\laptrinhjavaweb\mapper\BuildingMapper.class
 com\laptrinhjavaweb\dto\PasswordDTO.class
 com\laptrinhjavaweb\security\CustomSuccessHandler.class
 com\laptrinhjavaweb\utils\DisplayTagUtils.class

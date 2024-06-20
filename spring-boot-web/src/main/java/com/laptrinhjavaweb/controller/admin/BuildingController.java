@@ -12,11 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller(value = "buildingsControllerOfAdmin")
 public class BuildingController {
+
     @Autowired
     private IBuildingService buildingService;
 
     @GetMapping(value = "/admin/building-new")
     public ModelAndView createBuilding(@ModelAttribute(SystemConstant.MODEL) BuildingDTO model) {
+
         ModelAndView mav = new ModelAndView("admin/building/building_form");
 
         mav.addObject("valueBtn", "Thêm");

@@ -9,7 +9,7 @@ import java.util.Map;
 public class MessageUtils {
 
 	public Map<String, String> getMessage(String message) {
-		Map<String, String> result = new HashMap<>();
+		Map<String, String> result = new HashMap<String, String>();
 		if (message.equals("update_success")) {
 			result.put("message", "Update success");
 			result.put("alert", "success");

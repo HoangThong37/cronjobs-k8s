@@ -22,8 +22,8 @@ public class UserEntity extends BaseEntity {
     @Column(name = "status", nullable = false)
     private Integer status;
 
-    @Column(name = "email", unique = true)
-    private String email;
+//    @Column(name = "email", unique = true)
+//    private String email;
 
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "user_role",
@@ -71,11 +71,11 @@ public class UserEntity extends BaseEntity {
         this.roles = roles;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+//    public String getEmail() {
+//        return email;
+//    }
+//
+//    public void setEmail(String email) {
+//        this.email = email;
+//    }
 }

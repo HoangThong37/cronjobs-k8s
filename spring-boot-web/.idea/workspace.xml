@@ -5,110 +5,213 @@
       <artifact name="spring-boot:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="53153a59-3b23-493c-834b-16676624b612" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="53153a59-3b23-493c-834b-16676624b612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/impl/BuildingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/impl/RoleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_boot_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_boot_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__displaytag_displaytag_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_sitemesh_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_0_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_16_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/controller/admin/BuildingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/controller/admin/BuildingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/dto/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/dto/AbstractDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/BuildingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/BuildingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/custom/UserRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/UserRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/custom/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/repository/custom/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/utils/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/utils/MessageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/admin/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/admin/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/SpringBootWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/admin/BuildingAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/admin/BuildingAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/admin/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/admin/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/web/NewAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/api/web/NewAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/JpaAuditingConfig$AuditorAwareImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/JpaAuditingConfig$AuditorAwareImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/JpaAuditingConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/JpaAuditingConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/ModelMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/ModelMapperConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/constant/SystemConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/constant/SystemConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/BuildingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/BuildingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/admin/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/controller/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/converter/BuildingConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/converter/RoleConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/converter/UserConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/AbstractDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/AbstractDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/BuildingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/BuildingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/MyUserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/PasswordDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/PasswordDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/RoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/entity/BuildingEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/entity/RoleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/entity/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/repository/BuildingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/repository/custom/UserRepositoryCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/repository/custom/impl/UserRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/security/CustomSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/security/utils/SecurityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/IBuildingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/IBuildingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/impl/BuildingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/impl/CustomUserDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/impl/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/service/impl/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/utils/DisplayTagUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/utils/MessageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/utils/ReadFileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laptrinhjavaweb/utils/UploadFileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/SpringBootWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/SpringBootWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/api/admin/BuildingAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/api/admin/BuildingAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/api/admin/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/api/admin/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/config/JpaAuditingConfig$AuditorAwareImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/config/JpaAuditingConfig$AuditorAwareImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/admin/BuildingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/admin/BuildingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/admin/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/admin/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/controller/web/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/BuildingConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/BuildingConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/RoleConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/RoleConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/UserConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/converter/UserConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/AbstractDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/AbstractDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/BuildingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/BuildingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/MyUserDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/MyUserDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/PasswordDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/PasswordDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/RoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/BuildingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/BuildingEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/RoleEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/exception/NotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/BuildingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/BuildingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/custom/UserRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/custom/UserRepositoryCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/custom/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/repository/custom/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/security/CustomSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/security/CustomSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/IBuildingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/IBuildingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/BuildingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/BuildingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/CustomUserDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/CustomUserDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/service/impl/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/DisplayTagUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/DisplayTagUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/MessageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/MessageUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/ReadFileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/ReadFileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/UploadFileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/classes/com/laptrinhjavaweb/utils/UploadFileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/views/admin/building/building_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-1.0/WEB-INF/views/admin/building/building_form.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1893578782">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="37" />
-          <entry key="jsp" value="7" />
-          <entry key="properties" value="1" />
-          <entry key="sql" value="1" />
-          <entry key="xhtml" value="1" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="37" />
-          <entry key="JSP" value="7" />
-          <entry key="Properties" value="1" />
-          <entry key="SQL" value="1" />
-          <entry key="XHTML" value="1" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1469" />
-          <entry key="jsp" value="1" />
-          <entry key="properties" value="4" />
-          <entry key="xhtml" value="1" />
-          <entry key="xml" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1469" />
-          <entry key="JSP" value="1" />
-          <entry key="Properties" value="4" />
-          <entry key="XHTML" value="1" />
-          <entry key="XML" value="14" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="621384469">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="3" />
-          <entry key="jsp" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="JSP" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1570290377">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
@@ -131,6 +234,9 @@
       <find>commandName</find>
       <find>D:</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,12 +286,16 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="170" />
     <option name="y" value="15" />
     <option name="width" value="1575" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectId" id="2hiPjyb6xeqwkQzJ4qU0LOK920l" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -439,27 +549,35 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1676735292094" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../real-estate-management" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.spring-boot [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-boot [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-boot [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.tomcat.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project-train&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/63200334/Desktop/Test/spring-boot-form-handling-jsp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.SpringBootWebApplication">
     <configuration name="SpringBootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.laptrinhjavaweb.SpringBootWebApplication" />
@@ -467,7 +585,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="spring-boot:war exploded">
           <settings>
@@ -478,11 +596,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-boot_19" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="60616" />
       </RunnerSettings>
@@ -502,6 +620,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -539,9 +672,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringBootWebApplication" />
-      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Tomcat Server.tomcat" />
     </list>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -563,6 +705,10 @@
       <workItem from="1684159840367" duration="618000" />
       <workItem from="1684161193956" duration="194000" />
       <workItem from="1684161461208" duration="89000" />
+      <workItem from="1718074065257" duration="10920000" />
+      <workItem from="1718155944391" duration="8901000" />
+      <workItem from="1718245238927" duration="7982000" />
+      <workItem from="1718587624836" duration="372000" />
     </task>
     <servers />
   </component>
@@ -617,10 +763,48 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/controller/admin/HomeController.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/service/impl/UserService.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/service/impl/CustomUserDetailService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/service/impl/UserService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/controller/admin/BuildingController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/laptrinhjavaweb/controller/admin/BuildingController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.servlet.ModelAndView" memberName="view" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">

@@ -1,7 +1,7 @@
 package com.laptrinhjavaweb.repository.custom.impl;
 
 import com.laptrinhjavaweb.entity.UserEntity;
-import com.laptrinhjavaweb.repository.custom.UserRepositoryCustom;
+import com.laptrinhjavaweb.repository.UserRepositoryCustom;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 
